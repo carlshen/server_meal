@@ -1,0 +1,1599 @@
+[
+  {
+    "name": "热菜",
+    "foods": [
+      {
+        "image_url": "../../images/029.png",
+        "type": 0,
+        "index": 0,
+        "rating": 4,
+        "is_featured": 0,
+        "virtual_food_id": 1241780170,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182220
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "选用黑椒猪排，融合在味蕾中的幸福感受！",
+        "month_sales": 13,
+        "rating_count": 5,
+        "tips": "5评价 月售13份",
+        "image_path": "../../images/028.png",
+        "specifications": [
+          {
+            "values": [
+              "清蒸海鲈鱼",
+              "默认"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000042782894913",
+        "min_purchase": 1,
+        "name": "清蒸海鲈鱼",
+        "satisfy_count": 5,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 5,
+            "sku_id": "200000045259397953",
+            "name": "清蒸海鲈鱼",
+            "weight": 0,
+            "virtual_food_id": 1241780170,
+            "restaurant_id": 640443,
+            "food_id": 1244198630,
+            "packing_fee": 0,
+            "recent_rating": 4,
+            "promotion_stock": -1,
+            "price": 5,
+            "sold_out": false,
+            "recent_popularity": 13,
+            "is_essential": false,
+            "item_id": "200000042782894913",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "清蒸海鲈鱼"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9976
+          }
+        ],
+        "category_id": 1228444983
+      },
+      {
+        "image_url": "../../images/017.png",
+        "type": 0,
+        "index": 1,
+        "rating": 4,
+        "is_featured": 0,
+        "virtual_food_id": 616166398,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182100
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "酱烧排骨，融合在味蕾中的幸福感受！",
+        "month_sales": 11,
+        "rating_count": 6,
+        "tips": "6评价 月售11份",
+        "image_path": "../../images/009.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "217732055873",
+        "min_purchase": 1,
+        "name": "酱烧排骨",
+        "satisfy_count": 6,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 5,
+            "sku_id": "251224003393",
+            "name": "酱烧排骨",
+            "weight": 0,
+            "virtual_food_id": 616166398,
+            "restaurant_id": 640443,
+            "food_id": 635609378,
+            "packing_fee": 0,
+            "recent_rating": 4,
+            "promotion_stock": -1,
+            "price": 5,
+            "sold_out": false,
+            "recent_popularity": 9,
+            "is_essential": false,
+            "item_id": "217732055873",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9978
+          }
+        ],
+        "category_id": 1228444983
+      },
+      {
+        "image_url": "../../images/026.png",
+        "type": 0,
+        "index": 2,
+        "rating": 4.25,
+        "is_featured": 0,
+        "virtual_food_id": 1241773126,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182280
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "虾干蒸娃娃菜，融合在味蕾中的幸福感受！",
+        "month_sales": 11,
+        "rating_count": 6,
+        "tips": "6评价 月售11份",
+        "image_path": "../../images/030.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000042775681857",
+        "min_purchase": 1,
+        "name": "虾干蒸娃娃菜",
+        "satisfy_count": 6,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 5,
+            "sku_id": "200000045271489345",
+            "name": "虾干蒸娃娃菜",
+            "weight": 100,
+            "virtual_food_id": 1241773126,
+            "restaurant_id": 640443,
+            "food_id": 1244210438,
+            "packing_fee": 0,
+            "recent_rating": 4.5,
+            "promotion_stock": -1,
+            "price": 5,
+            "sold_out": false,
+            "recent_popularity": 8,
+            "is_essential": false,
+            "item_id": "200000042775681857",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9980
+          }
+        ],
+        "category_id": 1228444983
+      },
+      {
+        "image_url": "../../images/044.png",
+        "type": 0,
+        "index": 3,
+        "rating": 4.5,
+        "is_featured": 0,
+        "virtual_food_id": 1241776866,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182100
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "京酱肉丝，融合在味蕾中的幸福感受！",
+        "month_sales": 12,
+        "rating_count": 6,
+        "tips": "6评价 月售12份",
+        "image_path": "../../images/044.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000042779511617",
+        "min_purchase": 1,
+        "name": "京酱肉丝",
+        "satisfy_count": 6,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 5,
+            "sku_id": "200000045266753345",
+            "name": "京酱肉丝",
+            "weight": 100,
+            "virtual_food_id": 1241776866,
+            "restaurant_id": 640443,
+            "food_id": 1244205813,
+            "packing_fee": 0,
+            "recent_rating": 4.5,
+            "promotion_stock": -1,
+            "price": 5,
+            "sold_out": false,
+            "recent_popularity": 11,
+            "is_essential": false,
+            "item_id": "200000042779511617",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9985
+          }
+        ],
+        "category_id": 1228444983
+      },
+      {
+        "image_url": "../../images/033.png",
+        "type": 0,
+        "index": 4,
+        "rating": 4.5,
+        "is_featured": 0,
+        "virtual_food_id": 1241776861,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182280
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "韭菜炒鸡蛋，融合在味蕾中的幸福感受！",
+        "month_sales": 7,
+        "rating_count": 2,
+        "tips": "2评价 月售7份",
+        "image_path": "../../images/033.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000042779506497",
+        "min_purchase": 1,
+        "name": "韭菜炒鸡蛋",
+        "satisfy_count": 2,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 5,
+            "sku_id": "200000045266741057",
+            "name": "韭菜炒鸡蛋",
+            "weight": 100,
+            "virtual_food_id": 1241776861,
+            "restaurant_id": 640443,
+            "food_id": 1244205801,
+            "packing_fee": 0,
+            "recent_rating": 4.5,
+            "promotion_stock": -1,
+            "price": 5,
+            "sold_out": false,
+            "recent_popularity": 4,
+            "is_essential": false,
+            "item_id": "200000042779506497",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9990
+          }
+        ],
+        "category_id": 1228444983
+      },
+      {
+        "image_url": "../../images/021.png",
+        "type": 0,
+        "index": 5,
+        "rating": 4.33,
+        "is_featured": 0,
+        "virtual_food_id": 1241773138,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182100
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "蒜蓉鸡块，融合在味蕾中的幸福感受！",
+        "month_sales": 10,
+        "rating_count": 3,
+        "tips": "3评价 月售10份",
+        "image_path": "../../images/021.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000042775694145",
+        "min_purchase": 1,
+        "name": "蒜蓉鸡块",
+        "satisfy_count": 3,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 5,
+            "sku_id": "200000045271515969",
+            "name": "蒜蓉鸡块",
+            "weight": 100,
+            "virtual_food_id": 1241773138,
+            "restaurant_id": 640443,
+            "food_id": 1244210464,
+            "packing_fee": 0,
+            "recent_rating": 4.33,
+            "promotion_stock": -1,
+            "price": 5,
+            "sold_out": false,
+            "recent_popularity": 8,
+            "is_essential": false,
+            "item_id": "200000042775694145",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9989
+          }
+        ],
+        "category_id": 1228444983
+      },
+      {
+        "image_url": "../../images/018.png",
+        "type": 0,
+        "index": 6,
+        "rating": 4.2,
+        "is_featured": 0,
+        "virtual_food_id": 1241768872,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182280
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "清炒苋菜，融合在味蕾中的幸福感受！",
+        "month_sales": 15,
+        "rating_count": 7,
+        "tips": "7评价 月售15份",
+        "image_path": "../../images/018.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000042771325761",
+        "min_purchase": 1,
+        "name": "清炒苋菜",
+        "satisfy_count": 7,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 5,
+            "sku_id": "200000045263940417",
+            "name": "清炒苋菜",
+            "weight": 100,
+            "virtual_food_id": 1241768872,
+            "restaurant_id": 640443,
+            "food_id": 1244203066,
+            "packing_fee": 0,
+            "recent_rating": 4.4,
+            "promotion_stock": -1,
+            "price": 5,
+            "sold_out": false,
+            "recent_popularity": 11,
+            "is_essential": false,
+            "item_id": "200000042771325761",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9982
+          }
+        ],
+        "category_id": 1228444983
+      }
+    ]
+  },
+  {
+    "name": "凉菜",
+    "foods": [
+      {
+        "image_url": "../../images/015.png",
+        "type": 1,
+        "index": 0,
+        "rating": 4.5,
+        "is_featured": 0,
+        "virtual_food_id": 1242652283,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182340
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "多糖",
+              "半糖",
+              "微糖",
+              "无糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "精美的凉菜，搭配香浓的粥，回味无穷。",
+        "month_sales": 9,
+        "rating_count": 2,
+        "tips": "2评价 月售9份",
+        "image_path": "../../images/015.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000043675938625",
+        "min_purchase": 1,
+        "name": "蘸酱菜",
+        "satisfy_count": 2,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 3,
+            "sku_id": "200000046290675521",
+            "name": "蘸酱菜",
+            "weight": 1,
+            "virtual_food_id": 1242652283,
+            "restaurant_id": 640443,
+            "food_id": 1245205737,
+            "packing_fee": 0,
+            "recent_rating": 5,
+            "promotion_stock": -1,
+            "price": 3,
+            "sold_out": false,
+            "recent_popularity": 5,
+            "is_essential": false,
+            "item_id": "200000043675938625",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9990
+          }
+        ],
+        "category_id": 1228449284
+      },
+      {
+        "image_url": "../../images/010.png",
+        "type": 1,
+        "index": 1,
+        "rating": 4.5,
+        "is_featured": 0,
+        "virtual_food_id": 1242652283,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182340
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "多糖",
+              "半糖",
+              "微糖",
+              "无糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "精美的凉菜，搭配香浓的粥，回味无穷。",
+        "month_sales": 9,
+        "rating_count": 2,
+        "tips": "2评价 月售9份",
+        "image_path": "../../images/010.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000043675938625",
+        "min_purchase": 1,
+        "name": "凉拌苦瓜",
+        "satisfy_count": 2,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 3,
+            "sku_id": "200000046290675521",
+            "name": "凉拌苦瓜",
+            "weight": 1,
+            "virtual_food_id": 1242652283,
+            "restaurant_id": 640443,
+            "food_id": 1245205737,
+            "packing_fee": 0,
+            "recent_rating": 5,
+            "promotion_stock": -1,
+            "price": 3,
+            "sold_out": false,
+            "recent_popularity": 5,
+            "is_essential": false,
+            "item_id": "200000043675938625",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9990
+          }
+        ],
+        "category_id": 1228449284
+      },
+      {
+        "image_url": "../../images/024.png",
+        "type": 1,
+        "index": 2,
+        "rating": 4.5,
+        "is_featured": 0,
+        "virtual_food_id": 1242652283,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182340
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "多糖",
+              "半糖",
+              "微糖",
+              "无糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "精美的凉菜，搭配香浓的粥，回味无穷。",
+        "month_sales": 9,
+        "rating_count": 2,
+        "tips": "2评价 月售9份",
+        "image_path": "../../images/024.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000043675938625",
+        "min_purchase": 1,
+        "name": "鸭掌",
+        "satisfy_count": 2,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 3,
+            "sku_id": "200000046290675521",
+            "name": "鸭掌",
+            "weight": 1,
+            "virtual_food_id": 1242652283,
+            "restaurant_id": 640443,
+            "food_id": 1245205737,
+            "packing_fee": 0,
+            "recent_rating": 5,
+            "promotion_stock": -1,
+            "price": 3,
+            "sold_out": false,
+            "recent_popularity": 5,
+            "is_essential": false,
+            "item_id": "200000043675938625",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9990
+          }
+        ],
+        "category_id": 1228449284
+      },	  
+      {
+        "image_url": "../../images/022.png",
+        "type": 1,
+        "index": 3,
+        "rating": 4.5,
+        "is_featured": 0,
+        "virtual_food_id": 1242652283,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182340
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "多糖",
+              "半糖",
+              "微糖",
+              "无糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "精美的凉菜，搭配香浓的粥，回味无穷。",
+        "month_sales": 9,
+        "rating_count": 2,
+        "tips": "2评价 月售9份",
+        "image_path": "../../images/022.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000043675938625",
+        "min_purchase": 1,
+        "name": "凉拌青笋丝",
+        "satisfy_count": 2,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 3,
+            "sku_id": "200000046290675521",
+            "name": "凉拌青笋丝",
+            "weight": 1,
+            "virtual_food_id": 1242652283,
+            "restaurant_id": 640443,
+            "food_id": 1245205737,
+            "packing_fee": 0,
+            "recent_rating": 5,
+            "promotion_stock": -1,
+            "price": 3,
+            "sold_out": false,
+            "recent_popularity": 5,
+            "is_essential": false,
+            "item_id": "200000043675938625",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9990
+          }
+        ],
+        "category_id": 1228449284
+      },	  
+      {
+        "image_url": "../../images/011.png",
+        "type": 1,
+        "index": 4,
+        "rating": 4.5,
+        "is_featured": 0,
+        "virtual_food_id": 1242652283,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182340
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "多糖",
+              "半糖",
+              "微糖",
+              "无糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "精美的凉菜，搭配香浓的粥，回味无穷。",
+        "month_sales": 9,
+        "rating_count": 2,
+        "tips": "2评价 月售9份",
+        "image_path": "../../images/011.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000043675938625",
+        "min_purchase": 1,
+        "name": "内酯豆腐",
+        "satisfy_count": 2,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 3,
+            "sku_id": "200000046290675521",
+            "name": "内酯豆腐",
+            "weight": 1,
+            "virtual_food_id": 1242652283,
+            "restaurant_id": 640443,
+            "food_id": 1245205737,
+            "packing_fee": 0,
+            "recent_rating": 5,
+            "promotion_stock": -1,
+            "price": 3,
+            "sold_out": false,
+            "recent_popularity": 5,
+            "is_essential": false,
+            "item_id": "200000043675938625",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9990
+          }
+        ],
+        "category_id": 1228449284
+      }
+    ]
+  },
+  {
+    "name": "明档",
+    "foods": [
+      {
+        "image_url": "../../images/023.png",
+        "type": 2,
+        "index": 0,
+        "rating": 4.11,
+        "is_featured": 0,
+        "virtual_food_id": 1241776868,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182340
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "麻辣抄手，果香四溢！",
+        "month_sales": 29,
+        "rating_count": 11,
+        "tips": "11评价 月售29份",
+        "image_path": "../../images/023.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000042779513665",
+        "min_purchase": 1,
+        "name": "麻辣抄手",
+        "satisfy_count": 11,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 3,
+            "sku_id": "200000045266761537",
+            "name": "麻辣抄手",
+            "weight": 100,
+            "virtual_food_id": 1241776868,
+            "restaurant_id": 640443,
+            "food_id": 1244205821,
+            "packing_fee": 0,
+            "recent_rating": 4.33,
+            "promotion_stock": -1,
+            "price": 3,
+            "sold_out": false,
+            "recent_popularity": 17,
+            "is_essential": false,
+            "item_id": "200000042779513665",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9963
+          }
+		]
+	}
+    ]
+  },
+  {
+    "name": "主食",
+    "foods": [
+      {
+        "image_url": "../../images/055.png",
+        "type": 3,
+        "index": 1,
+        "rating": 5,
+        "is_featured": 0,
+        "virtual_food_id": 1241768871,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182280
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "馒头，入口回甘！",
+        "month_sales": 10,
+        "rating_count": 1,
+        "tips": "1评价 月售10份",
+        "image_path": "../../images/055.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000042771324737",
+        "min_purchase": 1,
+        "name": "馒头",
+        "satisfy_count": 1,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 1,
+            "sku_id": "200000045263936321",
+            "name": "馒头",
+            "weight": 100,
+            "virtual_food_id": 1241768871,
+            "restaurant_id": 640443,
+            "food_id": 1244203062,
+            "packing_fee": 0,
+            "recent_rating": 5,
+            "promotion_stock": -1,
+            "price": 1,
+            "sold_out": false,
+            "recent_popularity": 7,
+            "is_essential": false,
+            "item_id": "200000042771324737",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9981
+          }
+        ],
+        "category_id": 1228440144
+      },
+      {
+        "image_url": "../../images/053.png",
+        "type": 3,
+        "index": 2,
+        "rating": 5,
+        "is_featured": 0,
+        "virtual_food_id": 1241768871,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182280
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "花卷，入口回甘！",
+        "month_sales": 10,
+        "rating_count": 1,
+        "tips": "1评价 月售10份",
+        "image_path": "../../images/053.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "椰果",
+              "西米露",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000042771324737",
+        "min_purchase": 1,
+        "name": "花卷",
+        "satisfy_count": 1,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 1,
+            "sku_id": "200000045263936321",
+            "name": "花卷",
+            "weight": 100,
+            "virtual_food_id": 1241768871,
+            "restaurant_id": 640443,
+            "food_id": 1244203062,
+            "packing_fee": 0,
+            "recent_rating": 5,
+            "promotion_stock": -1,
+            "price": 1,
+            "sold_out": false,
+            "recent_popularity": 7,
+            "is_essential": false,
+            "item_id": "200000042771324737",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9981
+          }
+        ],
+        "category_id": 1228440144
+      },
+      {
+        "image_url": "../../images/013.png",
+        "type": 3,
+        "index": 0,
+        "rating": 4.083333333333333,
+        "is_featured": 0,
+        "virtual_food_id": 616168284,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182100
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "米饭拼红豆饭，回味无穷。",
+        "month_sales": 20,
+        "rating_count": 8,
+        "tips": "8评价 月售20份",
+        "image_path": "../../images/013.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "217733987137",
+        "min_purchase": 1,
+        "name": "米饭拼红豆饭",
+        "satisfy_count": 8,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 1,
+            "sku_id": "251218480961",
+            "name": "米饭拼红豆饭",
+            "weight": 0,
+            "virtual_food_id": 616168284,
+            "restaurant_id": 640443,
+            "food_id": 635603985,
+            "packing_fee": 0,
+            "recent_rating": 4.25,
+            "promotion_stock": -1,
+            "price": 1,
+            "sold_out": false,
+            "recent_popularity": 10,
+            "is_essential": false,
+            "item_id": "217733987137",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9982
+          }
+        ],
+        "category_id": 1228440144
+      },
+      {
+        "image_url": "../../images/043.png",
+        "type": 3,
+        "index": 3,
+        "rating": 5,
+        "is_featured": 0,
+        "virtual_food_id": 1241768871,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182280
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "南瓜拼土豆，入口回甘！",
+        "month_sales": 10,
+        "rating_count": 1,
+        "tips": "1评价 月售10份",
+        "image_path": "../../images/043.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000042771324737",
+        "min_purchase": 1,
+        "name": "南瓜拼土豆",
+        "satisfy_count": 1,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 1,
+            "sku_id": "200000045263936321",
+            "name": "南瓜拼土豆",
+            "weight": 100,
+            "virtual_food_id": 1241768871,
+            "restaurant_id": 640443,
+            "food_id": 1244203062,
+            "packing_fee": 0,
+            "recent_rating": 5,
+            "promotion_stock": -1,
+            "price": 1,
+            "sold_out": false,
+            "recent_popularity": 7,
+            "is_essential": false,
+            "item_id": "200000042771324737",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9981
+          }
+        ],
+        "category_id": 1228440144
+      },
+      {
+        "image_url": "../../images/012.png",
+        "type": 3,
+        "index": 4,
+        "rating": 5,
+        "is_featured": 0,
+        "virtual_food_id": 1241768871,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182280
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "饺子，入口回甘！",
+        "month_sales": 10,
+        "rating_count": 1,
+        "tips": "1评价 月售10份",
+        "image_path": "../../images/012.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000042771324737",
+        "min_purchase": 1,
+        "name": "饺子",
+        "satisfy_count": 1,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 1,
+            "sku_id": "200000045263936321",
+            "name": "饺子",
+            "weight": 100,
+            "virtual_food_id": 1241768871,
+            "restaurant_id": 640443,
+            "food_id": 1244203062,
+            "packing_fee": 0,
+            "recent_rating": 5,
+            "promotion_stock": -1,
+            "price": 1,
+            "sold_out": false,
+            "recent_popularity": 7,
+            "is_essential": false,
+            "item_id": "200000042771324737",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9981
+          }
+        ],
+        "category_id": 1228440144
+      },
+      {
+        "image_url": "../../images/011.png",
+        "type": 3,
+        "index": 5,
+        "rating": 5,
+        "is_featured": 0,
+        "virtual_food_id": 1241768871,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182280
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "无糖",
+              "微糖",
+              "多糖",
+              "半糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "黄金饼，入口回甘！",
+        "month_sales": 10,
+        "rating_count": 1,
+        "tips": "1评价 月售10份",
+        "image_path": "../../images/011.png",
+        "specifications": [
+          {
+            "values": [
+              "常规",
+              "珍珠"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000042771324737",
+        "min_purchase": 1,
+        "name": "黄金饼",
+        "satisfy_count": 1,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": 1,
+            "sku_id": "200000045263936321",
+            "name": "黄金饼",
+            "weight": 100,
+            "virtual_food_id": 1241768871,
+            "restaurant_id": 640443,
+            "food_id": 1244203062,
+            "packing_fee": 0,
+            "recent_rating": 5,
+            "promotion_stock": -1,
+            "price": 1,
+            "sold_out": false,
+            "recent_popularity": 7,
+            "is_essential": false,
+            "item_id": "200000042771324737",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9981
+          }
+        ],
+        "category_id": 1228440144
+      },
+      {
+        "image_url": "../../images/056.png",
+        "type": 3,
+        "index": 6,
+        "rating": 5,
+        "is_featured": 0,
+        "virtual_food_id": 1241768871,
+        "cold_box": null,
+        "restaurant_id": 640443,
+        "display_times": [
+          {
+            "begin": 1506096000,
+            "end": 1506182280
+          }
+        ],
+        "attrs": [
+          {
+            "values": [
+              "常规糖"
+            ],
+            "name": "糖度"
+          }
+        ],
+        "description": "没有更多了，到底了！",
+        "month_sales": 1,
+        "rating_count": 1,
+        "tips": "占位符",
+        "image_path": "../../images/056.png",
+        "specifications": [
+          {
+            "values": [
+              "常规"
+            ],
+            "name": "规格"
+          }
+        ],
+        "server_utc": 1506170074,
+        "is_essential": false,
+        "attributes": [],
+        "item_id": "200000042771324737",
+        "min_purchase": 1,
+        "name": "没有更多了，到底了",
+        "satisfy_count": 1,
+        "activity": null,
+        "satisfy_rate": 100,
+        "specfoods": [
+          {
+            "original_price": null,
+            "sku_id": "200000045263936321",
+            "name": "没有更多了，到底了",
+            "weight": 100,
+            "virtual_food_id": 1241768871,
+            "restaurant_id": 640443,
+            "food_id": 1244203062,
+            "packing_fee": 0,
+            "recent_rating": 5,
+            "promotion_stock": -1,
+            "price": 0,
+            "sold_out": false,
+            "recent_popularity": 7,
+            "is_essential": false,
+            "item_id": "200000042771324737",
+            "checkout_mode": 1,
+            "specs": [
+              {
+                "name": "规格",
+                "value": "常规"
+              }
+            ],
+            "partial_reduce_activity_id": null,
+            "stock": 9981
+          }
+        ],
+        "category_id": 1228440144
+      }
+    ]
+  }
+]
