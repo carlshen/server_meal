@@ -4,19 +4,20 @@ var fs = require('fs');
 var express = require("express");
 var bodyParser = require('body-parser');
 var http = require('http');
-var https = require('https')
+var https = require('https');
+var os = require('os');
 var app = express();
 app.use(bodyParser.json());
 
 const wx = {
     appid: '',
     secret: ''
-}
+};
 
 var db = {
     session: {},
     user: {}
-}
+};
 
 app.post('/login', (req, res) => {
     // 注意：小程序端的appid必须使用真实账号，如果使用测试账号，会出现login code错误
@@ -38,7 +39,7 @@ app.post('/login', (req, res) => {
             token: token
         })
     })
-})
+});
 
 app.get('/checklogin', (req, res) => {
     var session = db.session[req.query.token]
@@ -47,7 +48,7 @@ app.get('/checklogin', (req, res) => {
     res.json({
         is_login: session !== undefined
     })
-})
+});
 
 app.get('/credit', (req, res) => {
     var session = db.session[req.query.token]
@@ -60,7 +61,7 @@ app.get('/credit', (req, res) => {
             err: '用户不存在，或未登录。'
         })
     }
-})
+});
 
 app.post('/userinfo', (req, res) => {
     // 获取session值
@@ -85,7 +86,7 @@ app.post('/userinfo', (req, res) => {
             err: '用户不存在，或未登录。'
         })
     }
-})
+});
 
 //get请求首页信息
 app.get('/api/food/index',function (req,res) {
@@ -203,9 +204,13 @@ app.get('/api/food/record',function (req,res) {
 //app.listen(8081);    
 http.createServer(app).listen(80);
 const httpsOption = {
-    //key : fs.readFileSync("./https/xxxxxxxxxxxx.key"),
-    //cert: fs.readFileSync("./https/xxxxxxxxxxxx.pem")
-}
+    key : fs.readFileSync("./1shitang.tsinghuaic.com.key"),
+    cert: fs.readFileSync("./1shitang.tsinghuaic.com.pem"),
+    ca: [ fs.readFileSync("./1shitang.tsinghuaic.com.pem") ],
+	hostname: os.hostname(),
+	port: 80,
+	path: '/'
+};
 https.createServer(httpsOption, app).listen(443);
 
 /*
