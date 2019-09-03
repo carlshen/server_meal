@@ -202,16 +202,13 @@ app.get('/api/food/record',function (req,res) {
 });
 
 //app.listen(8081);    
-http.createServer(app).listen(80);
+http.createServer(app).listen(80, '192.168.1.20');
 const httpsOption = {
-    key : fs.readFileSync("./1shitang.tsinghuaic.com.key"),
+    key:  fs.readFileSync("./1shitang.tsinghuaic.com.key"),
     cert: fs.readFileSync("./1shitang.tsinghuaic.com.pem"),
-    ca: [ fs.readFileSync("./1shitang.tsinghuaic.com.pem") ],
-	hostname: os.hostname(),
-	port: 80,
-	path: '/'
+    ca: [ fs.readFileSync("./1shitang.tsinghuaic.com.pem") ]
 };
-https.createServer(httpsOption, app).listen(443);
+https.createServer(httpsOption, app).listen(443, '192.168.1.20');
 
 /*
 
