@@ -1,9 +1,5 @@
 // npm install express --save
 // npm install ejs --save
-// 加密解密
-const crypto = require('crypto');
-const WXBizDataCrypt = require('./WXBizDataCrypt')
-const request = require('request')
 var fs = require('fs');
 var express = require("express");
 var bodyParser = require('body-parser');
@@ -14,7 +10,7 @@ var app = express();
 app.use(bodyParser.json());
 
 const wx = {
-    appid: 'wxa900f2e25c98acd6',
+    appid: '',
     secret: ''
 };
 
@@ -23,7 +19,7 @@ var db = {
     user: {}
 };
 
-app.post('/api/login', (req, res) => {
+app.post('/login', (req, res) => {
     // 注意：小程序端的appid必须使用真实账号，如果使用测试账号，会出现login code错误
     console.log('login code: ' + req.body.code)
     var url = 'https://api.weixin.qq.com/sns/jscode2session?appid=' + wx.appid + '&secret=' + wx.secret + '&js_code=' + req.body.code + '&grant_type=authorization_code'
@@ -45,7 +41,7 @@ app.post('/api/login', (req, res) => {
     })
 });
 
-app.get('/api/checklogin', (req, res) => {
+app.get('/checklogin', (req, res) => {
     var session = db.session[req.query.token]
     console.log('checklogin: ', session)
     // 将用户是否已经登录的布尔值返回给客户端
@@ -54,7 +50,7 @@ app.get('/api/checklogin', (req, res) => {
     })
 });
 
-app.get('/api/credit', (req, res) => {
+app.get('/credit', (req, res) => {
     var session = db.session[req.query.token]
     if(session && db.user[session.openid]) {
         res.json({
@@ -67,7 +63,7 @@ app.get('/api/credit', (req, res) => {
     }
 });
 
-app.post('/api/userinfo', (req, res) => {
+app.post('/userinfo', (req, res) => {
     // 获取session值
     var session = db.session[req.query.token]
     console.log('session:' + session)
