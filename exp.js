@@ -150,40 +150,59 @@ app.get('/api/food/orderlist',function (req,res) {
 
 //订单请求post
 app.post("/api/food/order",function(req,res){
-	console.log(req.query);
-	console.log(req.query.body);
+	//console.log(req.query.body);
 	var obj = JSON.parse(req.query.body);
-	console.log(obj.id);
-	console.log(obj.num);
-    fs.writeFile('./namelist/' + obj.id, obj.num, function(err) {
-      if (err) {
-        //throw err;
-	    console.log(err);
-      }
-    });
+    var now = new Date();
+    var day = now.getDay();
+	var directory = './namelist' + day;
+	console.log(directory);
+	fs.exists(directory, function(exist) {
+		if (!exist) {
+			fs.mkdirSync(directory, 0777);
+		}
+		var fileName = directory + '/' + obj.id;
+		console.log(fileName);
+		fs.writeFile(fileName, req.query.body, function(err) {
+			if (err) {
+			//throw err;
+			console.log(err);
+			}
+		});
+	});
    res.json({error:0,order_id:3})
 });
 
 app.get("/api/food/order",function(req,res){
-	var files = fs.readdirSync('./namelist/');
-	console.log(files.length);
-	console.log(req.query.body);
+	//console.log(req.query.body);
 	var obj = JSON.parse(req.query.body);
-	console.log(obj.id);
-	console.log(obj.num);
-    fs.writeFile('./namelist/' + obj.id, obj.num, function(err) {
-      if (err) {
-        //throw err;
-	    console.log(err);
-      }
-    });
-   res.json({error:0, order_id:1})
+    var now = new Date();
+    var day = now.getDay();
+	var directory = './namelist' + day;
+	console.log(directory);
+	fs.exists(directory, function(exist) {
+		if (!exist) {
+			fs.mkdirSync(directory, 0777);
+		}
+		var fileName = directory + '/' + obj.id;
+		console.log(fileName);
+		fs.writeFile(fileName, req.query.body, function(err) {
+			if (err) {
+			//throw err;
+			console.log(err);
+			}
+		});
+	});
+    res.json({error:0, order_id:1})
 });
 // sum the files
 app.get("/api/food/sum",function(req,res){
-	var files = fs.readdirSync('./namelist/');
+    var now = new Date();
+    var day = now.getDay();
+	var directory = './namelist' + day;
+	console.log(directory);
+	var files = fs.readdirSync(directory);
 	console.log(files.length);
-   res.json({error:0, order_id: files.length })
+    res.json({error:0, order_id: files.length })
 });
 
 //支付post请求
